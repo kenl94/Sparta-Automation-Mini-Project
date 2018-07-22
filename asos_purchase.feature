@@ -1,4 +1,4 @@
-Feature:
+Feature: Asos Purchase
 
   Scenario: Adding items to a cart
   Given I pick a gender of clothes

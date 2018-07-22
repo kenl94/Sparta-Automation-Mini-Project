@@ -2,6 +2,7 @@ require 'capybara/dsl'
 require_relative 'pages/asos_homepage.rb'
 require_relative 'pages/asos_registration.rb'
 require_relative 'pages/asos_login.rb'
+require_relative 'pages/asos_male_clothes_page.rb'
 
 class Asos_Site
 
@@ -19,6 +20,10 @@ class Asos_Site
 
   def asos_login
     Asos_Login.new
+  end
+
+  def male_clothes_page
+    Asos_Male_Clothes.new
   end
 
 end
